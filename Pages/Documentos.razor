@@ -1,0 +1,76 @@
+@page "/documentos"
+@attribute [Authorize]
+
+<PageTitle>Documentos</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Documentos" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenTextBox Placeholder="Search ..." style="display: block; width: 100%" @oninput="@Search" />
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@documentos" TItem="QCRM.Models.DB_157005_crm7des.Documentos" RowDoubleClick="@EditRow">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="ID_DOC" Title="I D D O C">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="CODE" Title="C O D E">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="FECHA" Title="F E C H A">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="VERSION" Title="V E R S I O N">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="ULTIMA" Title="U L T I M A">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="DESCRIPCION" Title="D E S C R I P C I O N">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="PATH" Title="P A T H">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="DOCCIERRE" Title="D O C C I E R R E">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="DOCCERRADO" Title="D O C C E R R A D O">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="LASTUPDATED" Title="L A S T U P D A T E D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="LASTUSER" Title="L A S T U S E R">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="OLDID" Title="O L D I D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="LASTID" Title="L A S T I D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="Actividades.CODE" Title="Actividades">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="Cuentas.CODE" Title="Cuentas">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="Oportunidades.CODE" Title="Oportunidades">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="Tiposdoc.TIPO" Title="Tiposdoc">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Property="Usuarios.USUARIO" Title="Usuarios">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Documentos" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                    <Template Context="documentos">
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, documentos)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

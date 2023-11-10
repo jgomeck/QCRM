@@ -1,0 +1,66 @@
+@page "/productosinst"
+@attribute [Authorize]
+
+<PageTitle>Productosinst</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Productosinst" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenTextBox Placeholder="Search ..." style="display: block; width: 100%" @oninput="@Search" />
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@productosinst" TItem="QCRM.Models.DB_157005_crm7des.Productosinst" RowDoubleClick="@EditRow">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="ID_PRODUCTO" Title="I D P R O D U C T O">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="AREA" Title="A R E A">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="PRODUCTO" Title="P R O D U C T O">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="VERSION" Title="V E R S I O N">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="FECHA" Title="F E C H A">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="IMPLEMENTADOR" Title="I M P L E M E N T A D O R">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="NOTAS" Title="N O T A S">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="LASTUPDATED" Title="L A S T U P D A T E D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="LASTUSER" Title="L A S T U S E R">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="OLDID" Title="O L D I D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="LASTID" Title="L A S T I D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="Fabricantes.FABRICANTE" Title="Fabricantes">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Property="Cuentas.CODE" Title="Cuentas">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Productosinst" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                    <Template Context="productosinst">
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, productosinst)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

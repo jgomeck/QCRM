@@ -1,0 +1,3433 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\2023-05-12_122845.png",
+      "PackagePath": "staticwebassets\\CRMpics\\2023-05-12_122845.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\2023-05-12_133217.png",
+      "PackagePath": "staticwebassets\\CRMpics\\2023-05-12_133217.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\3G.png",
+      "PackagePath": "staticwebassets\\CRMpics\\3G.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\7eleven.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\7eleven.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ABC Capital.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ABC Capital.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ABDALA1.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ABDALA1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\AIG.png",
+      "PackagePath": "staticwebassets\\CRMpics\\AIG.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ALBURQUENQUE.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ALBURQUENQUE.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Abilia logo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Abilia logo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Actinver logo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Actinver logo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Adolfo Ruiz.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Adolfo Ruiz.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\AdrianaOrt.png",
+      "PackagePath": "staticwebassets\\CRMpics\\AdrianaOrt.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Aeromexico.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Aeromexico.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Alberto.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Alberto.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\AlbertoR.png",
+      "PackagePath": "staticwebassets\\CRMpics\\AlbertoR.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Alejandro Diaz.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Alejandro Diaz.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Alejandro.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Alejandro.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\AlexA.png",
+      "PackagePath": "staticwebassets\\CRMpics\\AlexA.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\AleydaB.png",
+      "PackagePath": "staticwebassets\\CRMpics\\AleydaB.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Alfredo Guzman.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Alfredo Guzman.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Alpura.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Alpura.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\American Tower.png",
+      "PackagePath": "staticwebassets\\CRMpics\\American Tower.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Ana.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Ana.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Anabel Preciado.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Anabel Preciado.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\AndreaP.png",
+      "PackagePath": "staticwebassets\\CRMpics\\AndreaP.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Andres Barba.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Andres Barba.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Angelica.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Angelica.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ApoyoE.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ApoyoE.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ArmandoH(1).png",
+      "PackagePath": "staticwebassets\\CRMpics\\ArmandoH(1).png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ArmandoH.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ArmandoH.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ArmandoR.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ArmandoR.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Arturo Davila.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Arturo Davila.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Asa.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Asa.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Aserta.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Aserta.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Astrazeneca.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Astrazeneca.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Axa.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Axa.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\BBVA.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\BBVA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\BV.png",
+      "PackagePath": "staticwebassets\\CRMpics\\BV.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Banco Base logo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Banco Base logo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Banco M.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\Banco M.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Banco Santander logo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Banco Santander logo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Banorte.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Banorte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Baxter.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Baxter.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Berel.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Berel.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Blue.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Blue.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Buzo Teofilo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Buzo Teofilo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\CKOSMOS.png",
+      "PackagePath": "staticwebassets\\CRMpics\\CKOSMOS.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\CRM.png",
+      "PackagePath": "staticwebassets\\CRMpics\\CRM.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\CRUZ AZUL.png",
+      "PackagePath": "staticwebassets\\CRMpics\\CRUZ AZUL.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\CamaraDiputados.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\CamaraDiputados.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\CamaraDiputados.png",
+      "PackagePath": "staticwebassets\\CRMpics\\CamaraDiputados.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Carlos Madrid.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Carlos Madrid.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Carlos Nuñez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Carlos Nuñez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Carlos Quintana.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Carlos Quintana.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Carlos Silva Abilia.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Carlos Silva Abilia.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\CarlosP.png",
+      "PackagePath": "staticwebassets\\CRMpics\\CarlosP.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Castro Cesar Augusto.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Castro Cesar Augusto.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Cemix.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Cemix.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Centr Chapu.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Centr Chapu.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Cinemex.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Cinemex.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Cinthya Rodriguez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Cinthya Rodriguez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Citibanamex.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Citibanamex.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Claudia Hernandez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Claudia Hernandez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ClaudiaC.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ClaudiaC.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Cometra.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Cometra.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Comex.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Comex.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\CopaMex.png",
+      "PackagePath": "staticwebassets\\CRMpics\\CopaMex.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Covalto(1).jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Covalto(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Covalto.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Covalto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Creditea.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Creditea.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\CynthiaM.png",
+      "PackagePath": "staticwebassets\\CRMpics\\CynthiaM.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\DHL.png",
+      "PackagePath": "staticwebassets\\CRMpics\\DHL.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\DICIPA.png",
+      "PackagePath": "staticwebassets\\CRMpics\\DICIPA.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\DavidArana.png",
+      "PackagePath": "staticwebassets\\CRMpics\\DavidArana.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Denisse Ramirez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Denisse Ramirez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Deyra Contreras.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Deyra Contreras.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Dico.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Dico.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Diego Zarroca.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Diego Zarroca.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Diego.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Diego.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Donaldson.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Donaldson.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Dulce.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Dulce.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ER.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\ER.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Edenred mexico logo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Edenred mexico logo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Eduardo Martinez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Eduardo Martinez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Eduardo Soto.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Eduardo Soto.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Eglobal.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Eglobal.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\El Aguila.png",
+      "PackagePath": "staticwebassets\\CRMpics\\El Aguila.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\El Financiero.png",
+      "PackagePath": "staticwebassets\\CRMpics\\El Financiero.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Elcalvario.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Elcalvario.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Elena Gasca.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Elena Gasca.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Elva Treviño.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Elva Treviño.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Eric Mejia Sabadell.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Eric Mejia Sabadell.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Ernesto navas.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Ernesto navas.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Estuardo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Estuardo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\FOS.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\FOS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Fantasias Miguel.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Fantasias Miguel.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\FcoAStarM.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\FcoAStarM.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Felipe Jimenez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Felipe Jimenez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Femsa.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Femsa.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Fernando.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Fernando.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\FernandoV.png",
+      "PackagePath": "staticwebassets\\CRMpics\\FernandoV.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Ferromex.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Ferromex.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\FinComun.png",
+      "PackagePath": "staticwebassets\\CRMpics\\FinComun.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Flores.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Flores.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\FondosdeFondos.png",
+      "PackagePath": "staticwebassets\\CRMpics\\FondosdeFondos.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Francisco.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Francisco.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\GI.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\GI.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\GIS.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\GIS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\GPSolaris.png",
+      "PackagePath": "staticwebassets\\CRMpics\\GPSolaris.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\GSI.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\GSI.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Gabriel España.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Gabriel España.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Gabrielas.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Gabrielas.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Garis(1).jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Garis(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Garis.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Garis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Gaspar.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Gaspar.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\GermanA.png",
+      "PackagePath": "staticwebassets\\CRMpics\\GermanA.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\GonzaloI.png",
+      "PackagePath": "staticwebassets\\CRMpics\\GonzaloI.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Grupo CICE.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Grupo CICE.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Grupo Mexico.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Grupo Mexico.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Grupo Valore(1).png",
+      "PackagePath": "staticwebassets\\CRMpics\\Grupo Valore(1).png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Grupo Valore.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Grupo Valore.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\GrupoGigante.png",
+      "PackagePath": "staticwebassets\\CRMpics\\GrupoGigante.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\GrupoHerdez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\GrupoHerdez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\GrupoVidanta.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\GrupoVidanta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Grupoexpansion.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Grupoexpansion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Guillermo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Guillermo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\GuillermoD.png",
+      "PackagePath": "staticwebassets\\CRMpics\\GuillermoD.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\HABC.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\HABC.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\HCR.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\HCR.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\HEMSA.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\HEMSA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\HSBC logo(1).png",
+      "PackagePath": "staticwebassets\\CRMpics\\HSBC logo(1).png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\HSBC logo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\HSBC logo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Hector.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Hector.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Helios.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Helios.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Hilton.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Hilton.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Horacio.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Horacio.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ICA.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ICA.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ICONN.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ICONN.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ITESO.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ITESO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Infonavit.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Infonavit.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Intercam.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Intercam.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\InverCap.png",
+      "PackagePath": "staticwebassets\\CRMpics\\InverCap.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Invex.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Invex.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Isaac.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Isaac.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Isita.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Isita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Ivan Hernandez Palace resorts.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Ivan Hernandez Palace resorts.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\JCA.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\JCA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\JavierB.png",
+      "PackagePath": "staticwebassets\\CRMpics\\JavierB.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\JorgeM.png",
+      "PackagePath": "staticwebassets\\CRMpics\\JorgeM.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Juan Carlos.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Juan Carlos.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Juan Pinacho.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Juan Pinacho.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\JuanP.png",
+      "PackagePath": "staticwebassets\\CRMpics\\JuanP.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Julieta Meza.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Julieta Meza.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\KFC.png",
+      "PackagePath": "staticwebassets\\CRMpics\\KFC.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\KansaC.png",
+      "PackagePath": "staticwebassets\\CRMpics\\KansaC.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Karen Barrera.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Karen Barrera.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Karina Espino.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Karina Espino.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Karina Garcia.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Karina Garcia.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Karinna Garcia.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Karinna Garcia.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Karla(1).png",
+      "PackagePath": "staticwebassets\\CRMpics\\Karla(1).png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Karla.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Karla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Konexo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Konexo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Konfio.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Konfio.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\LOGO STARMEDICA.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\LOGO STARMEDICA.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\LOPEZ.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\LOPEZ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\LaEuropea.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\LaEuropea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Laura Monserrat.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Laura Monserrat.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Leopoldo Zuñiga.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Leopoldo Zuñiga.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Leticia.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Leticia.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Libertad SF logo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Libertad SF logo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Logo Sabadell.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Logo Sabadell.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\LogoTajin.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\LogoTajin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Lottus logo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Lottus logo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\LucioG.png",
+      "PackagePath": "staticwebassets\\CRMpics\\LucioG.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Luis.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Luis.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\LuisH.png",
+      "PackagePath": "staticwebassets\\CRMpics\\LuisH.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Luisfernando Salazar.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Luisfernando Salazar.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\MARZAM.png",
+      "PackagePath": "staticwebassets\\CRMpics\\MARZAM.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\MEDICA SUR.png",
+      "PackagePath": "staticwebassets\\CRMpics\\MEDICA SUR.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\MERCK.png",
+      "PackagePath": "staticwebassets\\CRMpics\\MERCK.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\MOnex(1).png",
+      "PackagePath": "staticwebassets\\CRMpics\\MOnex(1).png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\MOnex.png",
+      "PackagePath": "staticwebassets\\CRMpics\\MOnex.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Marco Hernandez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Marco Hernandez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Maricarmen.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Maricarmen.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Mario Hermosillo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Mario Hermosillo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Mario Tellez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Mario Tellez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Mario(1).png",
+      "PackagePath": "staticwebassets\\CRMpics\\Mario(1).png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Mario(2).png",
+      "PackagePath": "staticwebassets\\CRMpics\\Mario(2).png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Marisol cortes.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Marisol cortes.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Mary Key.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Mary Key.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Mauri.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Mauri.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Mauricio.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Mauricio.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Merkafon.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Merkafon.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Michel.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Michel.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Mieguel An.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Mieguel An.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Mifel.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Mifel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\MiguelVA.png",
+      "PackagePath": "staticwebassets\\CRMpics\\MiguelVA.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Moises Flores.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Moises Flores.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Monica Juarez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Monica Juarez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Montepio.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Montepio.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Montosa.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Montosa.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Moteczcuma contactos.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Moteczcuma contactos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\NADRO.png",
+      "PackagePath": "staticwebassets\\CRMpics\\NADRO.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\NEMAK.png",
+      "PackagePath": "staticwebassets\\CRMpics\\NEMAK.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\NOVARTIS.png",
+      "PackagePath": "staticwebassets\\CRMpics\\NOVARTIS.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\NancyC.png",
+      "PackagePath": "staticwebassets\\CRMpics\\NancyC.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Neftali.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Neftali.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\NelsonS.png",
+      "PackagePath": "staticwebassets\\CRMpics\\NelsonS.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Norma.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Norma.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\OLX.png",
+      "PackagePath": "staticwebassets\\CRMpics\\OLX.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\OXXO.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\OXXO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Octavio Balleza.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Octavio Balleza.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\OctavioV.png",
+      "PackagePath": "staticwebassets\\CRMpics\\OctavioV.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Office.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Office.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Olaf.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Olaf.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Omar Alvarez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Omar Alvarez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Oscar Roman.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Oscar Roman.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\OscarG.png",
+      "PackagePath": "staticwebassets\\CRMpics\\OscarG.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Oswaldo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Oswaldo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Oswaldo1.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Oswaldo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Oviedo Mario.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Oviedo Mario.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\PAGT.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\PAGT.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\PARPRO.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\PARPRO.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Pablo Madinaveitia.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Pablo Madinaveitia.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Palace.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Palace.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Paola.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Paola.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\PaolaMedu.png",
+      "PackagePath": "staticwebassets\\CRMpics\\PaolaMedu.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Paquetexpress logo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Paquetexpress logo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Paribas.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Paribas.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\PatriciaD.png",
+      "PackagePath": "staticwebassets\\CRMpics\\PatriciaD.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Pedro.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Pedro.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\PedroE.png",
+      "PackagePath": "staticwebassets\\CRMpics\\PedroE.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Pepsico.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Pepsico.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\PerlaC.png",
+      "PackagePath": "staticwebassets\\CRMpics\\PerlaC.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Pinsa.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Pinsa.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Porcinelate.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Porcinelate.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Prendamex.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Prendamex.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Proeza(1).png",
+      "PackagePath": "staticwebassets\\CRMpics\\Proeza(1).png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Prolec.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Prolec.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Qualitas.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Qualitas.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\RafaA.png",
+      "PackagePath": "staticwebassets\\CRMpics\\RafaA.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Raymundo Barreiro Arpon.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Raymundo Barreiro Arpon.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Redpack.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Redpack.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ReynaldoR.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ReynaldoR.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\RicardoS(1).png",
+      "PackagePath": "staticwebassets\\CRMpics\\RicardoS(1).png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\RobertoG.png",
+      "PackagePath": "staticwebassets\\CRMpics\\RobertoG.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Roncancio.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Roncancio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\RubenF.png",
+      "PackagePath": "staticwebassets\\CRMpics\\RubenF.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\SA.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\SA.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\SANFER.png",
+      "PackagePath": "staticwebassets\\CRMpics\\SANFER.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Salcedo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Salcedo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Sancho.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Sancho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\SandraV.png",
+      "PackagePath": "staticwebassets\\CRMpics\\SandraV.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Sandro Pascual.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Sandro Pascual.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Santiago Ontañón.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Santiago Ontañón.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Seguritech(1).png",
+      "PackagePath": "staticwebassets\\CRMpics\\Seguritech(1).png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Seguritech.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Seguritech.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Seguros M.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Seguros M.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Seguros Sura.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Seguros Sura.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Smurtfit.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Smurtfit.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Sodexo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Sodexo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\SportsW.png",
+      "PackagePath": "staticwebassets\\CRMpics\\SportsW.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Stellantis.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Stellantis.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Sua.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Sua.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\SuperQ.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\SuperQ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\SusanaRuiz.png",
+      "PackagePath": "staticwebassets\\CRMpics\\SusanaRuiz.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\TBC.png",
+      "PackagePath": "staticwebassets\\CRMpics\\TBC.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\TGC.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\TGC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\TUVCH(1).jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\TUVCH(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\TUVCH.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\TUVCH.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Tajin.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Tajin.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Tajinlogo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Tajinlogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Tammy(1).png",
+      "PackagePath": "staticwebassets\\CRMpics\\Tammy(1).png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Tammy.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Tammy.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Tavemex logo.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Tavemex logo.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Tiendas3b.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Tiendas3b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Tribin.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\Tribin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\UAG.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\UAG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\USG.png",
+      "PackagePath": "staticwebassets\\CRMpics\\USG.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Ulisses.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Ulisses.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Univa.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Univa.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Universal.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Universal.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\UrielS.png",
+      "PackagePath": "staticwebassets\\CRMpics\\UrielS.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\VIVA AEROBUS.png",
+      "PackagePath": "staticwebassets\\CRMpics\\VIVA AEROBUS.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Valencia david.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Valencia david.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Vianny.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Vianny.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Yakult.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Yakult.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\Zermat.png",
+      "PackagePath": "staticwebassets\\CRMpics\\Zermat.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\abdala.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\abdala.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\abilia.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\abilia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\abraham.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\abraham.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\abrego.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\abrego.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\actinver.png",
+      "PackagePath": "staticwebassets\\CRMpics\\actinver.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ado.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ado.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\aexpress.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\aexpress.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\afirme.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\afirme.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\aforeazteca.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\aforeazteca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\aforebanamex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\aforebanamex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\aforexxi.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\aforexxi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\aga.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\aga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\alantorres.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\alantorres.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\alejandro jimenez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\alejandro jimenez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\alejandro reyes.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\alejandro reyes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\alexis.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\alexis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\aleyda.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\aleyda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\alfar.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\alfar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\alfarturo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\alfarturo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\alfredo betancourt.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\alfredo betancourt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\alfredo gutierrez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\alfredo gutierrez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\aliasafa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\aliasafa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\alman.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\alman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\alsea.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\alsea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\altecsa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\altecsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\alveg.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\alveg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\americantower.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\americantower.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\andrea.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\andrea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\andream.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\andream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\andreu.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\andreu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\angeles.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\angeles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\aon.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\aon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\apollo.webp",
+      "PackagePath": "staticwebassets\\CRMpics\\apollo.webp"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\arcacontinental.png",
+      "PackagePath": "staticwebassets\\CRMpics\\arcacontinental.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\areyes.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\areyes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\armando duran.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\armando duran.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\aroche.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\aroche.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\arturodavila.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\arturodavila.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\asa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\asa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\astraz.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\astraz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\asur.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\asur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\asur.svg",
+      "PackagePath": "staticwebassets\\CRMpics\\asur.svg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\att.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\att.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\auto.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\auto.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\autofin.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\autofin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\autotodo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\autotodo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\avante.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\avante.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\avante.png",
+      "PackagePath": "staticwebassets\\CRMpics\\avante.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\axa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\axa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ayalamendez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ayalamendez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\bachoco.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\bachoco.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\balleza.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\balleza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\banbajio.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\banbajio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\bancodelbajio.png",
+      "PackagePath": "staticwebassets\\CRMpics\\bancodelbajio.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\bancogeneral.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\bancogeneral.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\bancoppel.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\bancoppel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\banor.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\banor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\banort.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\banort.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\banorte logo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\banorte logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\banregio.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\banregio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\banxico.png",
+      "PackagePath": "staticwebassets\\CRMpics\\banxico.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\barba.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\barba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\bardahl.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\bardahl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\barreiro.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\barreiro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\barroso.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\barroso.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\begrand.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\begrand.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\benavides.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\benavides.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\bepensa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\bepensa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\bernalmond.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\bernalmond.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\bigcountry.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\bigcountry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\bnp.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\bnp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\bonafont.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\bonafont.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\braskem.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\braskem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\brendadlf.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\brendadlf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\burciaga.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\burciaga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cajapopularmexicana.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\cajapopularmexicana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cajatepeyac.png",
+      "PackagePath": "staticwebassets\\CRMpics\\cajatepeyac.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\calimax.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\calimax.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\calzadosandrea.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\calzadosandrea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\caminoreal.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\caminoreal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\carlos lerma.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\carlos lerma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\carlos mayer.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\carlos mayer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\carlosbravo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\carlosbravo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\carlosbravo1.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\carlosbravo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\carlosgonzalez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\carlosgonzalez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\carlosmadrid.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\carlosmadrid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\carso.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\carso.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\carsoinf.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\carsoinf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\casaley.png",
+      "PackagePath": "staticwebassets\\CRMpics\\casaley.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\casallas.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\casallas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\castillog.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\castillog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ccl.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ccl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cemex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\cemex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cenmex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\cenmex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cerero.jPG",
+      "PackagePath": "staticwebassets\\CRMpics\\cerero.jPG"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cesantoni.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\cesantoni.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ch.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\chapur.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\chapur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\chedraui.png",
+      "PackagePath": "staticwebassets\\CRMpics\\chedraui.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\chopo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\chopo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\christus.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\christus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cibanco.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\cibanco.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cinepolis.png",
+      "PackagePath": "staticwebassets\\CRMpics\\cinepolis.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\circlek.png",
+      "PackagePath": "staticwebassets\\CRMpics\\circlek.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cirilor.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\cirilor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\citibanamex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\citibanamex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cmr.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\cmr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\collado.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\collado.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\comex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\comex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\compartamos.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\compartamos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\compropago.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\compropago.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\consorcioara.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\consorcioara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\constantino lacayo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\constantino lacayo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\contreras.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\contreras.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\coppel.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\coppel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\corina.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\corina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\costcomex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\costcomex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cpsantamaria.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\cpsantamaria.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\creditoA.png",
+      "PackagePath": "staticwebassets\\CRMpics\\creditoA.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\creditoa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\creditoa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\creditoreal.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\creditoreal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cruzazul.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\cruzazul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cuervo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\cuervo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\cuprum.png",
+      "PackagePath": "staticwebassets\\CRMpics\\cuprum.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\data logo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\data logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\deacero.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\deacero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\degasa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\degasa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\delagarza.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\delagarza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\delbel.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\delbel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\delfuerte.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\delfuerte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\deyra.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\deyra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\diazsierra.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\diazsierra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\dicka.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\dicka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\dico.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\dico.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\diego martinez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\diego martinez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\digitalfemsa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\digitalfemsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\diputados.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\diputados.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\dish.png",
+      "PackagePath": "staticwebassets\\CRMpics\\dish.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\domecq.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\domecq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\duarte.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\duarte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ecolab.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ecolab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\edscargo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\edscargo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\elektra.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\elektra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\emerson.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\emerson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\envases.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\envases.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ericsson.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ericsson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\eroja.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\eroja.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\essilor.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\essilor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\estudillo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\estudillo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\eulen.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\eulen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\eulen.png",
+      "PackagePath": "staticwebassets\\CRMpics\\eulen.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\europea.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\europea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\expansion.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\expansion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\fahorro.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\fahorro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\fanasa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\fanasa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\fanosa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\fanosa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\farmaciaguadalajara.png",
+      "PackagePath": "staticwebassets\\CRMpics\\farmaciaguadalajara.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\farmaciasimilares.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\farmaciasimilares.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\febe.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\febe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\fedex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\fedex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ferreteriaC.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ferreteriaC.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\financieraindependencia.png",
+      "PackagePath": "staticwebassets\\CRMpics\\financieraindependencia.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\finatlas.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\finatlas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\fincomun.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\fincomun.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\flechamarilla.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\flechamarilla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\flexi.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\flexi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\flexi.png",
+      "PackagePath": "staticwebassets\\CRMpics\\flexi.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\flores.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\flores.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\fmiguel.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\fmiguel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ford.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ford.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\forever21.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\forever21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto CG.jpeg",
+      "PackagePath": "staticwebassets\\CRMpics\\foto CG.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto JCG.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\foto JCG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto JJM.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\foto JJM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto LT.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\foto LT.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto PM.png",
+      "PackagePath": "staticwebassets\\CRMpics\\foto PM.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto SM.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\foto SM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto VR.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\foto VR.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto frania.png",
+      "PackagePath": "staticwebassets\\CRMpics\\foto frania.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto frania1.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\foto frania1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto lervin.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\foto lervin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto oswaldo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\foto oswaldo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\foto sharly.png",
+      "PackagePath": "staticwebassets\\CRMpics\\foto sharly.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\fragua.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\fragua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\frisa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\frisa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\funo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\funo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\gabor.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\gabor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\gallegos.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\gallegos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\galmonte.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\galmonte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\gea.jfif",
+      "PackagePath": "staticwebassets\\CRMpics\\gea.jfif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\genomma.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\genomma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\gerardo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\gerardo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\germanA.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\germanA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\gicsa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\gicsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\gigante.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\gigante.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\gim.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\gim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\globalgas.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\globalgas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\gortega.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\gortega.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\goycoolea.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\goycoolea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\grupocapistrano.png",
+      "PackagePath": "staticwebassets\\CRMpics\\grupocapistrano.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\grupoimagen.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\grupoimagen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\grupolala.png",
+      "PackagePath": "staticwebassets\\CRMpics\\grupolala.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\grupoprom360.png",
+      "PackagePath": "staticwebassets\\CRMpics\\grupoprom360.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\guala.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\guala.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\gutmetalsa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\gutmetalsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\habc.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\habc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\hdi.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\hdi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\hdiseguros.png",
+      "PackagePath": "staticwebassets\\CRMpics\\hdiseguros.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\heineken.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\heineken.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\helm.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\helm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\helvex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\helvex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\herdez.png",
+      "PackagePath": "staticwebassets\\CRMpics\\herdez.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\hermann.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\hermann.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\hernandez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\hernandez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\hilton.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\hilton.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\homdepot.png",
+      "PackagePath": "staticwebassets\\CRMpics\\homdepot.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\honda.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\honda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\hooters.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\hooters.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\hospitalesmac.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\hospitalesmac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\hotelshops.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\hotelshops.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\hsbc.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\hsbc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ian.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ian.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ibero.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ibero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ica.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\iconn.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\iconn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ideajardines.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ideajardines.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\idesa petro.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\idesa petro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\idesa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\idesa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ifranklin.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ifranklin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\igp.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\igp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\inbursa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\inbursa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\independencia.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\independencia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\industriasch.png",
+      "PackagePath": "staticwebassets\\CRMpics\\industriasch.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\infra.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\infra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ingersoll.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ingersoll.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\integer.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\integer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\interceramic.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\interceramic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\interceramic.png",
+      "PackagePath": "staticwebassets\\CRMpics\\interceramic.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\intergen.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\intergen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\interjet.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\interjet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\intertek.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\intertek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\iss.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\iss.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ivandelao.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ivandelao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\jamy.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\jamy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\janaina.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\janaina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\janaina1.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\janaina1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\javer.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\javer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\javer1.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\javer1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\javer2.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\javer2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\jonathan.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\jonathan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\jorgeduarte.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\jorgeduarte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\jorgetrujillo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\jorgetrujillo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\jose creus.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\jose creus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\jose miguel palomares mendoza.png",
+      "PackagePath": "staticwebassets\\CRMpics\\jose miguel palomares mendoza.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\joseagomez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\joseagomez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\josue cendejas espinoza.png",
+      "PackagePath": "staticwebassets\\CRMpics\\josue cendejas espinoza.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\juanarevalo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\juanarevalo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\jumex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\jumex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\kaluz.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\kaluz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\karenbarrera.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\karenbarrera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\karla.png",
+      "PackagePath": "staticwebassets\\CRMpics\\karla.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\kavak.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\kavak.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\kemet.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\kemet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\kiosko.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\kiosko.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\kkreme.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\kkreme.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\kquijano.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\kquijano.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\kraft.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\kraft.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lacom.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lacom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lacomer.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lacomer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lacorona.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lacorona.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lacostena.png",
+      "PackagePath": "staticwebassets\\CRMpics\\lacostena.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\laflorida.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\laflorida.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lamod.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lamod.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\laureate.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\laureate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lbenavides.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lbenavides.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\leboreiro.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\leboreiro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\linde.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\linde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lipu.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lipu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\liverpool.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\liverpool.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\liverpool.png",
+      "PackagePath": "staticwebassets\\CRMpics\\liverpool.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lizolaya.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lizolaya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\llantas.png",
+      "PackagePath": "staticwebassets\\CRMpics\\llantas.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lockton.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lockton.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo Alsea.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo Alsea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo Autozone.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo Autozone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo Grupo la Florida.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo Grupo la Florida.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo Hogares Union.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo Hogares Union.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo Magna.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo Magna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo MetLife.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo MetLife.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo Metalsa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo Metalsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo Miniso.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo Miniso.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo Monte de Piedad.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo Monte de Piedad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo Saint Gobain.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo Saint Gobain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo UAG.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo UAG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo UKG.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo UKG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo Valle redondo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo Valle redondo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo afirme.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo afirme.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo alestra.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo alestra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo allianz.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo allianz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo altan.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo altan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo america movil.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo america movil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo american express.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo american express.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo apollo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo apollo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo axtel.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo axtel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo azteca.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo azteca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo bepensa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo bepensa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo bimbo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo bimbo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo chedraui.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo chedraui.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo clip.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo clip.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo coppel.png",
+      "PackagePath": "staticwebassets\\CRMpics\\logo coppel.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo cornerstone.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo cornerstone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo desarrollo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo desarrollo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo dhl.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo dhl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo estafeta.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo estafeta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo fandeli.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo fandeli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo gentera.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo gentera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo gnp.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo gnp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo home depot.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo home depot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo ibm.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo ibm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo libertad.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo libertad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo microsoft.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo microsoft.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo moteczuma.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo moteczuma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo oracle.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo oracle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo palacio.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo palacio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo pase.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo pase.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo prosa.png",
+      "PackagePath": "staticwebassets\\CRMpics\\logo prosa.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo qdata.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo qdata.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo salesforce.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo salesforce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo sap.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo sap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo scotia.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo scotia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo scotiabank.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo scotiabank.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo sedena.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo sedena.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo seguros atlas.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo seguros atlas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo telcel.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo telcel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo televisa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo televisa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo telmex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo telmex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo tienda inglesa.png",
+      "PackagePath": "staticwebassets\\CRMpics\\logo tienda inglesa.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo uam.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo uam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo valore.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo valore.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo viva aerobus.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo viva aerobus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo winhost.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo winhost.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo workday.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo workday.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo zurich.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo zurich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logo-Aliat.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logo-Aliat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\logomanpower.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\logomanpower.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lonza.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lonza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lopezcoreno.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lopezcoreno.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\loranca.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\loranca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lozano.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lozano.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lozanotorres.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lozanotorres.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\lucioguti.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\lucioguti.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\luis gutierrez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\luis gutierrez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\luz careaga.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\luz careaga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\mabe.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\mabe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\madinaveitia.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\madinaveitia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\magna.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\magna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\manpower.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\manpower.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\manzanillo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\manzanillo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\marco lopez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\marco lopez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\marhnos.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\marhnos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\maridelia.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\maridelia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\mario perez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\mario perez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\mario.png",
+      "PackagePath": "staticwebassets\\CRMpics\\mario.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\maritza.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\maritza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\marti.png",
+      "PackagePath": "staticwebassets\\CRMpics\\marti.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\martinez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\martinez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\marubio.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\marubio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\marzam.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\marzam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\mayab.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\mayab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\medicasur.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\medicasur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\merck.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\merck.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\metalsa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\metalsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\mexoil.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\mexoil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\mezagalindo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\mezagalindo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\milenio.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\milenio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\mizuho.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\mizuho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\montepio.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\montepio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\montoya.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\montoya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\movistar.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\movistar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\mozo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\mozo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\multiva.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\multiva.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\mundurango.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\mundurango.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\murguia.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\murguia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\nadro.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\nadro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\nallely.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\nallely.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\natturalabs.png",
+      "PackagePath": "staticwebassets\\CRMpics\\natturalabs.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\neira.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\neira.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\nemak.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\nemak.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\neto.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\neto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\nice.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\nice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\nieto.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\nieto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\nokia.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\nokia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\nova.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\nova.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\nucor.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\nucor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\nunezcarlos.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\nunezcarlos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ocupa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ocupa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\officedepot.png",
+      "PackagePath": "staticwebassets\\CRMpics\\officedepot.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\omaralvarez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\omaralvarez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ontanon.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ontanon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\oracle.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\oracle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pacifico.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pacifico.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\packsys.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\packsys.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\padilla.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\padilla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pagatodo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pagatodo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pajon.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pajon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\palace.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\palace.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\palacios.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\palacios.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\palmerin.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\palmerin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\palomares.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\palomares.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\papela.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\papela.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\parpro.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\parpro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pasten.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pasten.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pearson.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pearson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\penoles.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\penoles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\penoles.png",
+      "PackagePath": "staticwebassets\\CRMpics\\penoles.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\penoles.webp",
+      "PackagePath": "staticwebassets\\CRMpics\\penoles.webp"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\perezher.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\perezher.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ph.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ph.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pia.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pia1.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pia1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pinacho.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pinacho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pirelli.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pirelli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pmi.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pmi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pmi1.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pmi1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\posadas.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\posadas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\prana.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\prana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\prieto.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\prieto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\proa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\proa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\proeza.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\proeza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\proeza.png",
+      "PackagePath": "staticwebassets\\CRMpics\\proeza.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\profuturo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\profuturo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\prolec.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\prolec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\prom.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\prom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\puche.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\puche.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\pverde.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\pverde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\qualitas.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\qualitas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ragasa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ragasa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rappi.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rappi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rassini.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rassini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rassini.png",
+      "PackagePath": "staticwebassets\\CRMpics\\rassini.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\real.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\real.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\reuters.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\reuters.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\reynoso.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\reynoso.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rgomez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rgomez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rgranada.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rgranada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rgt.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rgt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rgta.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rgta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ricardoS.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ricardoS.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ricgt.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ricgt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rlopezb.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rlopezb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\roberto.png",
+      "PackagePath": "staticwebassets\\CRMpics\\roberto.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\robertoe.png",
+      "PackagePath": "staticwebassets\\CRMpics\\robertoe.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\robin henderson.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\robin henderson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rocio rueda.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rocio rueda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rodmena.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rodmena.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rodminiso.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rodminiso.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rodriguez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rodriguez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rogerg.png",
+      "PackagePath": "staticwebassets\\CRMpics\\rogerg.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\roma.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\roma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rotoplas.gif",
+      "PackagePath": "staticwebassets\\CRMpics\\rotoplas.gif"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rotoplas.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\rotoplas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\rotoplas.svg",
+      "PackagePath": "staticwebassets\\CRMpics\\rotoplas.svg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ruben rosete.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ruben rosete.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ruizguzman.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ruizguzman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sahuay.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sahuay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sahuayo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sahuayo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\salazar.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\salazar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\samsonite.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\samsonite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sanfer.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sanfer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sanpablo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sanpablo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sapien.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sapien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sat.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\schachmann.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\schachmann.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sciconn.png",
+      "PackagePath": "staticwebassets\\CRMpics\\sciconn.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\segbanamex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\segbanamex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\seguros azteca.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\seguros azteca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\semar.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\semar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\semarnat.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\semarnat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\serezo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\serezo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\serrano.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\serrano.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\serrano1.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\serrano1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\serviacero.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\serviacero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sesajal.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sesajal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sesajal.png",
+      "PackagePath": "staticwebassets\\CRMpics\\sesajal.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sgobain.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sgobain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\siemens.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\siemens.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sigma.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sigma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\similares.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\similares.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sivale.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sivale.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\softtek.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\softtek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\soledadreyes.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\soledadreyes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\solistica.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\solistica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sophia.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sophia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\soriana.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\soriana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\stephanys.png",
+      "PackagePath": "staticwebassets\\CRMpics\\stephanys.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sterigenics.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sterigenics.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\stp.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\stp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\suhay.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\suhay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sukarne.png",
+      "PackagePath": "staticwebassets\\CRMpics\\sukarne.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\sworld.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\sworld.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\takahashi.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\takahashi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\tania.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\tania.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\tavex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\tavex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\tecmty.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\tecmty.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\tecnopiso.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\tecnopiso.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\telcel.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\telcel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\teleperformance.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\teleperformance.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\televisa.png",
+      "PackagePath": "staticwebassets\\CRMpics\\televisa.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\teresita.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\teresita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ternium.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ternium.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ternium.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ternium.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\tiendas3b.png",
+      "PackagePath": "staticwebassets\\CRMpics\\tiendas3b.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\tip mexico.png",
+      "PackagePath": "staticwebassets\\CRMpics\\tip mexico.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\toks.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\toks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\totalplay.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\totalplay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\totalplay.png",
+      "PackagePath": "staticwebassets\\CRMpics\\totalplay.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\toyota.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\toyota.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\toyota.png",
+      "PackagePath": "staticwebassets\\CRMpics\\toyota.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\trax.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\trax.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\traxion.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\traxion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\tresalia.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\tresalia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\tresguerras.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\tresguerras.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\tupperware.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\tupperware.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\tv azteca.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\tv azteca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\uaem.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\uaem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\udem.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\udem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\udlap.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\udlap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ulloa.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\ulloa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\ureblock.png",
+      "PackagePath": "staticwebassets\\CRMpics\\ureblock.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\uribe.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\uribe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\urrea.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\urrea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\urzua1.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\urzua1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\utep.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\utep.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\uvm.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\uvm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\valleredondo.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\valleredondo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\vector.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\vector.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\venegas.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\venegas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\verrastro.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\verrastro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\vesta.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\vesta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\vhramirez.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\vhramirez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\vitalmex.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\vitalmex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\vitr.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\vitr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\volaris.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\volaris.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\vsoto.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\vsoto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\vvenegas.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\vvenegas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\vvenegas1.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\vvenegas1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\waldos.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\waldos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\walmart.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\walmart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\wendy holguin.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\wendy holguin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\westrock.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\westrock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\xignus.png",
+      "PackagePath": "staticwebassets\\CRMpics\\xignus.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\xignux.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\xignux.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\yadira.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\yadira.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\yoli.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\yoli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\zepeda.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\zepeda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\CRMpics\\zunigaleop.jpg",
+      "PackagePath": "staticwebassets\\CRMpics\\zunigaleop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\Quanamazul.ico",
+      "PackagePath": "staticwebassets\\Quanamazul.ico"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\images\\Quanamazul.png",
+      "PackagePath": "staticwebassets\\images\\Quanamazul.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\images\\login.jpg",
+      "PackagePath": "staticwebassets\\images\\login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\images\\logo-login.png",
+      "PackagePath": "staticwebassets\\images\\logo-login.png"
+    },
+    {
+      "Id": "C:\\Users\\johng\\Documents\\ASPNET\\RADZEN\\QCRM\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.QCRM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.QCRM.props",
+      "PackagePath": "build\\QCRM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.QCRM.props",
+      "PackagePath": "buildMultiTargeting\\QCRM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.QCRM.props",
+      "PackagePath": "buildTransitive\\QCRM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,104 @@
+@page "/facturas"
+@attribute [Authorize]
+
+<PageTitle>Facturas</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Facturas" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenTextBox Placeholder="Search ..." style="display: block; width: 100%" @oninput="@Search" />
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@facturas" TItem="QCRM.Models.DB_157005_crm7des.Facturas" RowDoubleClick="@EditRow">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="ID_FACTURA" Title="I D F A C T U R A">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="NUMEROF" Title="N U M E R O F">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="TIPO" Title="T I P O">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="FECHA" Title="F E C H A">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="FECHAC" Title="F E C H A C">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="PROYECTO" Title="P R O Y E C T O">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="CLIENTE" Title="C L I E N T E">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="MONEDA" Title="M O N E D A">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="IMPORTEMN" Title="I M P O R T E M N">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="RETENCIONMN" Title="R E T E N C I O N M N">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="IVAMN" Title="I V A M N">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="TOTALMN" Title="T O T A L M N">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="SALDOMN" Title="S A L D O M N">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="TC" Title="T C">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="IMPORTEUSD" Title="I M P O R T E U S D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="RETENCIONUSD" Title="R E T E N C I O N U S D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="IVAUSD" Title="I V A U S D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="TOTALUSD" Title="T O T A L U S D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="SALDOUSD" Title="S A L D O U S D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="CONCEPTO" Title="C O N C E P T O">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="FECHACOBRO" Title="F E C H A C O B R O">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="IMPORTEC" Title="I M P O R T E C">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="FECHARECIB" Title="F E C H A R E C I B">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="NOMBREREC" Title="N O M B R E R E C">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="COMPLEMENTO" Title="C O M P L E M E N T O">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="FECHACOMPL" Title="F E C H A C O M P L">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="MULTILINEA" Title="M U L T I L I N E A">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="LASTUPDATED" Title="L A S T U P D A T E D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="LASTUSER" Title="L A S T U S E R">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="LINEAGEN" Title="L I N E A G E N">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="NOMCTA" Title="N O M C T A">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Property="Cuentas.CODE" Title="Cuentas">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Facturas" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                    <Template Context="facturas">
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, facturas)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

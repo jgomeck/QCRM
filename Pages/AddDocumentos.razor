@@ -1,0 +1,163 @@
+@page "/add-documentos"
+@attribute [Authorize]
+
+<PageTitle>Add Documentos</PageTitle>
+    <RadzenColumn SizeMD=12>
+        <RadzenAlert Shade="Shade.Lighter" Variant="Variant.Flat" Size="AlertSize.Small" AlertStyle="AlertStyle.Danger" Visible="@errorVisible">Cannot save Documentos</RadzenAlert>
+        <RadzenTemplateForm TItem="QCRM.Models.DB_157005_crm7des.Documentos" Data="@documentos" Visible="@(documentos != null)" Submit="@FormSubmit">
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="C O D E" Component="CODE" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenTextBox style="display: block; width: 100%" @bind-Value="@documentos.CODE" Name="CODE" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="F E C H A" Component="FECHA" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenDatePicker DateFormat="MM/dd/yyyy" style="display: block; width: 100%" @bind-Value="@documentos.FECHA" Name="FECHA" />
+                    <RadzenRequiredValidator Component="FECHA" Text="FECHA is required" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="V E R S I O N" Component="VERSION" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenNumeric style="display: block; width: 100%" @bind-Value="@documentos.VERSION" Name="VERSION" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="U L T I M A" Component="ULTIMA" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenCheckBox @bind-Value="@documentos.ULTIMA" Name="ULTIMA" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="D E S C R I P C I O N" Component="DESCRIPCION" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenTextBox style="display: block; width: 100%" @bind-Value="@documentos.DESCRIPCION" Name="DESCRIPCION" />
+                    <RadzenRequiredValidator Component="DESCRIPCION" Text="DESCRIPCION is required" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="P A T H" Component="PATH" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenTextBox style="display: block; width: 100%" @bind-Value="@documentos.PATH" Name="PATH" />
+                    <RadzenRequiredValidator Component="PATH" Text="PATH is required" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="D O C C I E R R E" Component="DOCCIERRE" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenCheckBox @bind-Value="@documentos.DOCCIERRE" Name="DOCCIERRE" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="D O C C E R R A D O" Component="DOCCERRADO" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenCheckBox @bind-Value="@documentos.DOCCERRADO" Name="DOCCERRADO" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="L A S T U P D A T E D" Component="LASTUPDATED" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenDatePicker DateFormat="MM/dd/yyyy" style="display: block; width: 100%" @bind-Value="@documentos.LASTUPDATED" Name="LASTUPDATED" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="L A S T U S E R" Component="LASTUSER" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenTextBox style="display: block; width: 100%" @bind-Value="@documentos.LASTUSER" Name="LASTUSER" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="O L D I D" Component="OLDID" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenNumeric style="display: block; width: 100%" @bind-Value="@documentos.OLDID" Name="OLDID" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="L A S T I D" Component="LASTID" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenNumeric style="display: block; width: 100%" @bind-Value="@documentos.LASTID" Name="LASTID" />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="Actividades" Component="Actividades" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenDropDown Data="@actividadesForIDACTIVIDAD" TextProperty="CODE" ValueProperty="ID_ACTIVIDAD" AllowClear=true
+                         Placeholder="Choose Actividades" style="display: block; width: 100%" @bind-Value="@documentos.ID_ACTIVIDAD" Name="ID_ACTIVIDAD"
+                           />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="Cuentas" Component="Cuentas" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenDropDown Data="@cuentasForIDCUENTA" TextProperty="CODE" ValueProperty="ID_CUENTA" AllowClear=true
+                         Placeholder="Choose Cuentas" style="display: block; width: 100%" @bind-Value="@documentos.ID_CUENTA" Name="ID_CUENTA"
+                           />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="Oportunidades" Component="Oportunidades" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenDropDown Data="@oportunidadesForIDOPORTUNIDAD" TextProperty="CODE" ValueProperty="ID_OPORTUNIDAD" AllowClear=true
+                         Placeholder="Choose Oportunidades" style="display: block; width: 100%" @bind-Value="@documentos.ID_OPORTUNIDAD" Name="ID_OPORTUNIDAD"
+                           />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="Tiposdoc" Component="Tiposdoc" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenDropDown Data="@tiposdocForTIPODOC" TextProperty="TIPO" ValueProperty="TIPO" AllowClear=true
+                         Placeholder="Choose Tiposdoc" style="display: block; width: 100%" @bind-Value="@documentos.TIPODOC" Name="TIPODOC"
+                           />
+                </RadzenColumn>
+            </RadzenRow>
+            <RadzenRow style="margin-bottom: 1rem">
+                <RadzenColumn SizeMD="3">
+                    <RadzenLabel Text="Usuarios" Component="Usuarios" style="width: 100%" />
+                </RadzenColumn>
+                <RadzenColumn SizeMD="9">
+                    <RadzenDropDown Data="@usuariosForUSUARIO" TextProperty="USUARIO" ValueProperty="USUARIO" AllowClear=true
+                         Placeholder="Choose Usuarios" style="display: block; width: 100%" @bind-Value="@documentos.USUARIO" Name="USUARIO"
+                           />
+                </RadzenColumn>
+            </RadzenRow>
+          <RadzenStack  Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                    <RadzenButton ButtonStyle="ButtonStyle.Primary" ButtonType="ButtonType.Submit" Icon="save" Text="Save" Variant="Variant.Flat" />
+                    <RadzenButton ButtonStyle="ButtonStyle.Light" Text="Cancel" Variant="Variant.Flat" Click="@CancelButtonClick"  />
+          </RadzenStack>
+        </RadzenTemplateForm>
+    </RadzenColumn>
+

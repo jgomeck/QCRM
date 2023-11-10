@@ -1,0 +1,62 @@
+@page "/status"
+@attribute [Authorize]
+
+<PageTitle>Status</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Status" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@status" RowUpdate="@GridRowUpdate" RowCreate="@GridRowCreate" TItem="QCRM.Models.DB_157005_crm7des.Status">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Status" Property="FORECAST" Title="F O R E C A S T">
+                  <EditTemplate Context="status">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@status.FORECAST" Name="FORECAST" />
+                      <RadzenRequiredValidator Component="FORECAST" Text="FORECAST is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Status" Property="GRUPO" Title="G R U P O">
+                  <EditTemplate Context="status">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@status.GRUPO" Name="GRUPO" />
+                      <RadzenRequiredValidator Component="GRUPO" Text="GRUPO is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Status" Filterable="false" Sortable="false" Width="156px" TextAlign="TextAlign.Center">
+                    <EditTemplate Context="status">
+                        <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => SaveButtonClick(args, status)) @onclick:stopPropagation="true" />
+                        <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            Click=@(args => CancelButtonClick(args, status)) @onclick:stopPropagation="true" />
+                    </EditTemplate>
+                    <Template Context="status">
+
+                        <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => EditButtonClick(args, status)) @onclick:stopPropagation="true" />
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, status)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

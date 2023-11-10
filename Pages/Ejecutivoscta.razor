@@ -1,0 +1,68 @@
+@page "/ejecutivoscta"
+@attribute [Authorize]
+
+<PageTitle>Ejecutivoscta</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Ejecutivoscta" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenTextBox Placeholder="Search ..." style="display: block; width: 100%" @oninput="@Search" />
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@ejecutivoscta" TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" RowDoubleClick="@EditRow">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="ID_EJECUTIVO_CUENTA" Title="I D E J E C U T I V O C U E N T A">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="AM1" Title="A M1">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="AM2" Title="A M2">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="DIRECTOR" Title="D I R E C T O R">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="VP" Title="V P">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="DESDE" Title="D E S D E">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="NOTAS" Title="N O T A S">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="ULTIMO" Title="U L T I M O">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="LASTUPDATED" Title="L A S T U P D A T E D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="LASTUSER" Title="L A S T U S E R">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="LASTID" Title="L A S T I D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="Fabricantes.FABRICANTE" Title="Fabricantes">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="Cuentas.CODE" Title="Cuentas">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Property="Verticales.VERTICAL" Title="Verticales">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Ejecutivoscta" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                    <Template Context="ejecutivoscta">
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, ejecutivoscta)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

@@ -1,0 +1,109 @@
+@page "/cuentas"
+
+@attribute [Authorize]
+
+<PageTitle>Cuentas</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Cuentas" TextStyle="TextStyle.H4" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+            <RadzenTextBox Placeholder="Search ..." style="display: block; width: 226px" @oninput="@Search" />
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    
+     <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="Radzen.FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true"
+            Data="@cuentas" TItem="QCRM.Models.DB_157005_crm7des.Cuentas" RowDoubleClick="@EditRow" PageSize="15" PagerPosition="Radzen.PagerPosition.Top" 
+            PagerAlwaysVisible="false" PagerDensity="Density.Compact" PageNumbersCount="0" AllowColumnResize="true" AllowColumnReorder="true" AllowColumnPicking="false"
+            AllowAlternatingRows="true" AllowGrouping="false" AllowMultiColumnSorting="false" Density="Radzen.Density.Compact" PagerHorizontalAlign="Radzen.HorizontalAlign.Right" 
+            PageSizeOptions="@(new int[]{5, 10, 20, 30, 40})">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="ID_CUENTA" Title="I D C U E N T A" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="CODE" Title="C O D E" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Title="LOGO" Visible="true" Width="35px">
+                    <Template Context="data">
+                        <RadzenImage Path="@($"CRMpics/{data.LOGO}")" width="30" height="17"/>
+                    </Template>
+                 </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="NOMBRE" Title="NOMBRE" SortOrder="SortOrder.Ascending" >
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="RAZONSOCIAL" Title="R A Z O N S O C I A L " Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="DIRECCION" Title="D I R E C C I O N" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="TELEFONO" Title="T E L E F O N O" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="DESCRIPCION" Title="D E S C R I P C I O N" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="Usuarios.USUARIO" Title="EJ" Width="50px"          
+                    >
+
+
+
+
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="Estados.ESTADO" Title="Estado" Width="80px">
+                                                                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="Industrias.INDUSTRIA" Title="Industria" Width="80px">
+                                                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="Ciudades.CIUDAD" Title="Ciudad" Width="80px">
+                                                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="VENTAS" Title="VTAS" Width="80px">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="EMPLEADOS" Title="EMPLEADOS" Width="80px">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="COMPETIDORES" Title="C O M P E T I D O R E S" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="WEBSITE" Title="W E B S I T E" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="FECHA" Title="F E C H A" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="WHY" Title="W H Y" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="WHYNOW" Title="W H Y N O W" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="WHYQ" Title="W H Y Q" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="LOGO" Title="L O G O" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="BASE" Title="B A S E" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="ANIOVTAS" Title="A N I O V T A S" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="ANIOEMPL" Title="A N I O E M P L" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="PROXIMO" Title="P R O X I M O" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="PAGO" Title="P A G O" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="DATEADDED" Title="D A T E A D D E D" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="USERADDED" Title="U S E R A D D E D" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="Grupos.GRUPO" Title="Grupo" Width="80px">
+                                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="LASTUPDATED" Title="ACTUALIZADO" Width="100px">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="LASTUSER" Title="user" Width="50px">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="OLDID" Title="O L D I D" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="LASTID" Title="L A S T I D" Visible="false">
+                </RadzenDataGridColumn>
+            </Columns>
+        </RadzenDataGrid>
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

@@ -1,0 +1,97 @@
+@inherits LayoutComponentBase
+<RadzenDialog />
+<RadzenNotification />
+<RadzenTooltip />
+<RadzenContextMenu />
+
+<RadzenLayout style="grid-template-areas: 'rz-sidebar rz-header' 'rz-sidebar rz-body' ;">
+    <RadzenHeader Style="height: 49px">
+        <RadzenRow JustifyContent="JustifyContent.Start" AlignItems="AlignItems.Center" Gap="0" Style="height: 49px; background-color: #3a474d">
+            <RadzenColumn Size="5" Style="background-color: #3a474d">
+                <RadzenSidebarToggle Click="@SidebarToggleClick" Style="background-color: #072340; color: #ffffff; height: 48px" ></RadzenSidebarToggle>
+            </RadzenColumn>
+            <RadzenColumn Size="7">
+                <RadzenStack AlignItems="AlignItems.Center" Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" Style="height: 49px; ">
+                    <RadzenProfileMenu Visible="@Security.IsAuthenticated()" Click="@ProfileMenuClick" Style="height: 49px; background-color: #66CFDD">
+                        <ChildContent>
+                            <RadzenProfileMenuItem Path="profile" Icon="settings" Text="Profile" />
+                            <RadzenProfileMenuItem Path="application-users" Icon="person" Text="Users" />
+                            <RadzenProfileMenuItem Path="application-roles" Icon="security" Text="Roles" />
+                            <RadzenProfileMenuItem Text="Logout" Value="Logout" Icon="power_settings_new" />
+                        </ChildContent>
+                        <Template>
+                            @Security.User?.Name
+                            <RadzenGravatar Email="@Security.User?.Name" />
+                        </Template>
+                    </RadzenProfileMenu>
+                </RadzenStack>
+            </RadzenColumn>
+        </RadzenRow>
+    </RadzenHeader>
+    <RadzenBody Expanded="@sidebarExpanded" Style="height: 697px">
+        <RadzenRow class="rz-mx-auto rz-px-4 rz-pt-2 rz-pt-md-4 rz-pt-lg-6 rz-pt-xl-12 rz-pb-2 rz-pb-lg-12" Style="max-width: 1440px;">
+            <RadzenColumn Size="12">
+            @Body
+            </RadzenColumn>
+        </RadzenRow>
+    </RadzenBody>
+    <RadzenSidebar Expanded="@sidebarExpanded" style="z-index: 2; background-color: #072340; width: 207px">
+        <RadzenStack AlignItems="Radzen.AlignItems.Center" class="rz-py-2 rz-py-lg-4" Style="padding: 0; border-bottom: var(--rz-panel-menu-item-border); width: 209px">
+            <RadzenImage Path="images/Quanamazul.png"  style="width: 60px; height: 60px;"></RadzenImage>
+            <RadzenText Text="CRM" TextStyle="Radzen.Blazor.TextStyle.Subtitle1" class="rz-mb-0" style="color: #66CFDD;" />
+        </RadzenStack>
+        <RadzenPanelMenu Style="width: 200px; height: 435px; --rz-panel-menu-item-padding: 4px" >
+            <RadzenPanelMenuItem Text="Inicio" Path="" Icon="home" IconColor="#66CFDD"/>
+            <RadzenPanelMenuItem Text="Cuentas" Path="cuentas" Icon="factory" IconColor="#66CFDD" />
+            <RadzenPanelMenuItem Text="Oportunidades" Path="oportunidades" Icon="attach_money" IconColor="#66CFDD"/>
+            <RadzenPanelMenuItem Text="Contactos" Path="contactos" Icon="contacts" IconColor="#66CFDD" />
+            <RadzenPanelMenuItem Text="Actividades" Path="actividades" Icon="calendar_month" IconColor="#66CFDD"/>        
+            <RadzenPanelMenuItem Text="Documentos" Path="documentos" Icon="article" IconColor="#66CFDD"/>
+            <RadzenPanelMenuItem Text="Productos instalados" Path="productosinst" Icon="monitor" IconColor="#66CFDD" />
+            <RadzenPanelMenuItem Text="Ejecutivos del fabricante" Path="ejecutivos" Icon="account_circle" IconColor="#66CFDD"/>
+            <RadzenPanelMenuItem Text="Ejecutivos por cuenta" Path="ejecutivoscta" Icon="groups" IconColor="#66CFDD" />
+            <RadzenPanelMenuItem Text="Facturas" Path="facturas" Icon="request_page" IconColor="#66CFDD" />
+            <RadzenPanelMenuItem Text="Proyectos" Path="proyectos" Icon="account_tree" IconColor="#66CFDD" />
+            <RadzenPanelMenuItem Text="Presupuestos" Path="presupuestos" Icon="table_chart" IconColor="#66CFDD"/>
+            <RadzenPanelMenuItem Text="Logs" Icon="login" IconColor="#FFF456" >  
+                <RadzenPanelMenuItem Text="Log usuarios" Path="usulog" />
+                <RadzenPanelMenuItem Text="Log cuentas" Path="ctalog" />
+                <RadzenPanelMenuItem Text="Log oportunidades" Path="opolog" />
+                <RadzenPanelMenuItem Text="Log notificaciones" Path="notiflog" />
+                <RadzenPanelMenuItem Text="Cuentas recientes" Path="cuenta-s5" />
+                <RadzenPanelMenuItem Text="Oportunidades recientes" Path="oportunidade-s5" />
+                <RadzenPanelMenuItem Text="Proyectos recientes" Path="proyecto-s5" />
+            </RadzenPanelMenuItem>          
+            <RadzenPanelMenuItem Text="Configuración" Icon="settings" IconColor="#FFF456" Visible='@Security.IsInRole(new string[]{"Administrador","Dirección General"})' >
+                 <RadzenPanelMenuItem Text="Ciudades" Path="ciudades" />
+                 <RadzenPanelMenuItem Text="Cuotas de ventas" Path="cuotas" />
+                 <RadzenPanelMenuItem Text="Estados de cuentas" Path="estados" />
+                 <RadzenPanelMenuItem Text="Notas de cuentas" Path="notascta" Style="height:35px"/>
+                 <RadzenPanelMenuItem Text="Status de oportunidades" Path="status" />
+                 <RadzenPanelMenuItem Text="Etapas de oportunidades" Path="etapas" />
+                 <RadzenPanelMenuItem Text="Fabricantes" Path="fabricantes" />
+                 <RadzenPanelMenuItem Text="Grupos económicos" Path="grupos" />
+                 <RadzenPanelMenuItem Text="Industrias" Path="industrias" />
+                 <RadzenPanelMenuItem Text="Líneas de factura" Path="facturasl" />
+                 <RadzenPanelMenuItem Text="Tipos de actividades" Path="tiposact" />
+                 <RadzenPanelMenuItem Text="Tipos de documentos" Path="tiposdoc" />
+                 <RadzenPanelMenuItem Text="Tipos de servicios" Path="tiposerv" />
+                 <RadzenPanelMenuItem Text="Tipos de proyectos" Path="tiposproy" />
+                 <RadzenPanelMenuItem Text="Tipos de Cambio" Path="cambio" />
+                 <RadzenPanelMenuItem Text="Usuarios" Path="usuarios" Visible='@Security.IsInRole("Administrador")'/>
+                 <RadzenPanelMenuItem Text="Verticales" Path="verticales" />
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Text="Procesos" Icon="apps" IconColor="#FFF456" Visible='@Security.IsInRole(new string[]{"Administrador", "Dirección General"})'>
+                 <RadzenPanelMenuItem Text="Cierre de oportunidades" />
+                 <RadzenPanelMenuItem Text="Notificaciones" >
+                    <RadzenPanelMenuItem Text="Generar notificaciones" />
+                    <RadzenPanelMenuItem Text="Log de notificaciones" />
+                 </RadzenPanelMenuItem>
+            </RadzenPanelMenuItem>
+        </RadzenPanelMenu>
+        <RadzenStack AlignItems="Radzen.AlignItems.Center" Gap="0" class="rz-py-4 rz-py-lg-6" Style="padding: var(--rz-panel-menu-item-padding);">
+            <RadzenText Text="QCRM v1.0.0" TextStyle="Radzen.Blazor.TextStyle.Caption" style="color: #66CFDD;" TagName="Radzen.Blazor.TagName.P" TextAlign="Radzen.TextAlign.Center" />
+            <RadzenText Text="Copyright Ⓒ 2023" TextStyle="Radzen.Blazor.TextStyle.Caption" class="rz-mb-0" style="color: #66CFDD;" TagName="Radzen.Blazor.TagName.P" TextAlign="Radzen.TextAlign.Center" />
+        </RadzenStack>
+    </RadzenSidebar>
+</RadzenLayout>

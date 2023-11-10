@@ -1,0 +1,67 @@
+@page "/estados"
+@attribute [Authorize]
+
+<PageTitle>Estados</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Estados" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@estados" RowUpdate="@GridRowUpdate" RowCreate="@GridRowCreate" TItem="QCRM.Models.DB_157005_crm7des.Estados">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Estados" Property="ESTADO" Title="E S T A D O">
+                  <EditTemplate Context="estados">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@estados.ESTADO" Name="ESTADO" />
+                      <RadzenRequiredValidator Component="ESTADO" Text="ESTADO is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Estados" Property="AUTOMATICO" Title="A U T O M A T I C O">
+                  <EditTemplate Context="estados">
+                      <RadzenCheckBox @bind-Value="@estados.AUTOMATICO" Name="AUTOMATICO" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Estados" Property="ORDEN" Title="O R D E N">
+                  <EditTemplate Context="estados">
+                      <RadzenNumeric style="display: block; width: 100%" @bind-Value="@estados.ORDEN" Name="ORDEN" />
+                      <RadzenRequiredValidator Component="ORDEN" Text="ORDEN is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Estados" Filterable="false" Sortable="false" Width="156px" TextAlign="TextAlign.Center">
+                    <EditTemplate Context="estados">
+                        <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => SaveButtonClick(args, estados)) @onclick:stopPropagation="true" />
+                        <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            Click=@(args => CancelButtonClick(args, estados)) @onclick:stopPropagation="true" />
+                    </EditTemplate>
+                    <Template Context="estados">
+
+                        <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => EditButtonClick(args, estados)) @onclick:stopPropagation="true" />
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, estados)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

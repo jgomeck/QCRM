@@ -1,0 +1,133 @@
+@page "/opolog"
+@attribute [Authorize]
+
+<PageTitle>Opolog</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Opolog" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@opolog" RowUpdate="@GridRowUpdate" RowCreate="@GridRowCreate" TItem="QCRM.Models.DB_157005_crm7des.Opolog">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="ID_OPOLOG" Title="I D O P O L O G">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="FECHA" Title="F E C H A">
+                  <EditTemplate Context="opolog">
+                      <RadzenDatePicker DateFormat="MM/dd/yyyy" style="display: block; width: 100%" @bind-Value="@opolog.FECHA" Name="FECHA" />
+                      <RadzenRequiredValidator Component="FECHA" Text="FECHA is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="EVENTO" Title="E V E N T O">
+                  <EditTemplate Context="opolog">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@opolog.EVENTO" Name="EVENTO" />
+                      <RadzenRequiredValidator Component="EVENTO" Text="EVENTO is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="NOMBRE" Title="N O M B R E">
+                  <EditTemplate Context="opolog">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@opolog.NOMBRE" Name="NOMBRE" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="USUARIOPO" Title="U S U A R I O P O">
+                  <EditTemplate Context="opolog">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@opolog.USUARIOPO" Name="USUARIOPO" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="CIERRE" Title="C I E R R E">
+                  <EditTemplate Context="opolog">
+                      <RadzenDatePicker DateFormat="MM/dd/yyyy" style="display: block; width: 100%" @bind-Value="@opolog.CIERRE" Name="CIERRE" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="FORECAST" Title="F O R E C A S T">
+                  <EditTemplate Context="opolog">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@opolog.FORECAST" Name="FORECAST" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="ETAPA" Title="E T A P A">
+                  <EditTemplate Context="opolog">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@opolog.ETAPA" Name="ETAPA" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="PROBABILIDAD" Title="P R O B A B I L I D A D">
+                  <EditTemplate Context="opolog">
+                      <RadzenNumeric style="display: block; width: 100%" @bind-Value="@opolog.PROBABILIDAD" Name="PROBABILIDAD" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="MONTOUSD" Title="M O N T O U S D">
+                  <EditTemplate Context="opolog">
+                      <RadzenNumeric style="display: block; width: 100%" @bind-Value="@opolog.MONTOUSD" Name="MONTOUSD" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="MONEDA" Title="M O N E D A">
+                  <EditTemplate Context="opolog">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@opolog.MONEDA" Name="MONEDA" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="TC" Title="T C">
+                  <EditTemplate Context="opolog">
+                      <RadzenNumeric style="display: block; width: 100%" @bind-Value="@opolog.TC" Name="TC" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="MONTOMN" Title="M O N T O M N">
+                  <EditTemplate Context="opolog">
+                      <RadzenNumeric style="display: block; width: 100%" @bind-Value="@opolog.MONTOMN" Name="MONTOMN" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="LASTID" Title="L A S T I D">
+                  <EditTemplate Context="opolog">
+                      <RadzenNumeric style="display: block; width: 100%" @bind-Value="@opolog.LASTID" Name="LASTID" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="Oportunidades.CODE" Title="Oportunidades">
+                  <EditTemplate Context="opolog">
+                        <RadzenDropDown Data="@oportunidadesForIDOPORTUNIDAD" TextProperty="CODE" ValueProperty="ID_OPORTUNIDAD"
+                            Placeholder="Choose Oportunidades" style="display: block; width: 100%" @bind-Value="@opolog.ID_OPORTUNIDAD" Name="ID_OPORTUNIDAD" AllowClear=true
+                           />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Property="Usuarios.USUARIO" Title="Usuarios">
+                  <EditTemplate Context="opolog">
+                        <RadzenDropDown Data="@usuariosForUSUARIO" TextProperty="USUARIO" ValueProperty="USUARIO"
+                            Placeholder="Choose Usuarios" style="display: block; width: 100%" @bind-Value="@opolog.USUARIO" Name="USUARIO" AllowClear=true
+                           />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Opolog" Filterable="false" Sortable="false" Width="156px" TextAlign="TextAlign.Center">
+                    <EditTemplate Context="opolog">
+                        <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => SaveButtonClick(args, opolog)) @onclick:stopPropagation="true" />
+                        <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            Click=@(args => CancelButtonClick(args, opolog)) @onclick:stopPropagation="true" />
+                    </EditTemplate>
+                    <Template Context="opolog">
+
+                        <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => EditButtonClick(args, opolog)) @onclick:stopPropagation="true" />
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, opolog)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

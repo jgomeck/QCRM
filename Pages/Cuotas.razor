@@ -1,0 +1,89 @@
+@page "/cuotas"
+@attribute [Authorize]
+
+<PageTitle>Cuotas</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Cuotas" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@cuotas" RowUpdate="@GridRowUpdate" RowCreate="@GridRowCreate" TItem="QCRM.Models.DB_157005_crm7des.Cuotas">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuotas" Property="ID" Title="I D">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuotas" Property="USUARIO" Title="U S U A R I O">
+                  <EditTemplate Context="cuotas">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@cuotas.USUARIO" Name="USUARIO" />
+                      <RadzenRequiredValidator Component="USUARIO" Text="USUARIO is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuotas" Property="ANIO" Title="A N I O">
+                  <EditTemplate Context="cuotas">
+                      <RadzenNumeric style="display: block; width: 100%" @bind-Value="@cuotas.ANIO" Name="ANIO" />
+                      <RadzenRequiredValidator Component="ANIO" Text="ANIO is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuotas" Property="QUARTER" Title="Q U A R T E R">
+                  <EditTemplate Context="cuotas">
+                      <RadzenNumeric style="display: block; width: 100%" @bind-Value="@cuotas.QUARTER" Name="QUARTER" />
+                      <RadzenRequiredValidator Component="QUARTER" Text="QUARTER is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuotas" Property="MONTOUSD" Title="M O N T O U S D">
+                  <EditTemplate Context="cuotas">
+                      <RadzenNumeric style="display: block; width: 100%" @bind-Value="@cuotas.MONTOUSD" Name="MONTOUSD" />
+                      <RadzenRequiredValidator Component="MONTOUSD" Text="MONTOUSD is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuotas" Property="MONTOMN" Title="M O N T O M N">
+                  <EditTemplate Context="cuotas">
+                      <RadzenNumeric style="display: block; width: 100%" @bind-Value="@cuotas.MONTOMN" Name="MONTOMN" />
+                      <RadzenRequiredValidator Component="MONTOMN" Text="MONTOMN is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuotas" Property="Tiposerv.TIPO" Title="Tiposerv">
+                  <EditTemplate Context="cuotas">
+                        <RadzenDropDown Data="@tiposervForTIPO" TextProperty="TIPO" ValueProperty="TIPO"
+                            Placeholder="Choose Tiposerv" style="display: block; width: 100%" @bind-Value="@cuotas.TIPO" Name="TIPO" AllowClear=true
+                           />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuotas" Filterable="false" Sortable="false" Width="156px" TextAlign="TextAlign.Center">
+                    <EditTemplate Context="cuotas">
+                        <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => SaveButtonClick(args, cuotas)) @onclick:stopPropagation="true" />
+                        <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            Click=@(args => CancelButtonClick(args, cuotas)) @onclick:stopPropagation="true" />
+                    </EditTemplate>
+                    <Template Context="cuotas">
+
+                        <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => EditButtonClick(args, cuotas)) @onclick:stopPropagation="true" />
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, cuotas)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

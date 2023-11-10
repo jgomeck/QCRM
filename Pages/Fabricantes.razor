@@ -1,0 +1,77 @@
+@page "/fabricantes"
+@attribute [Authorize]
+
+<PageTitle>Fabricantes</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Fabricantes" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@fabricantes" RowUpdate="@GridRowUpdate" RowCreate="@GridRowCreate" TItem="QCRM.Models.DB_157005_crm7des.Fabricantes">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Fabricantes" Property="FABRICANTE" Title="F A B R I C A N T E">
+                  <EditTemplate Context="fabricantes">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@fabricantes.FABRICANTE" Name="FABRICANTE" />
+                      <RadzenRequiredValidator Component="FABRICANTE" Text="FABRICANTE is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Fabricantes" Property="NOMBRE" Title="N O M B R E">
+                  <EditTemplate Context="fabricantes">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@fabricantes.NOMBRE" Name="NOMBRE" />
+                      <RadzenRequiredValidator Component="NOMBRE" Text="NOMBRE is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Fabricantes" Property="LOGO" Title="L O G O">
+                  <EditTemplate Context="fabricantes">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@fabricantes.LOGO" Name="LOGO" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Fabricantes" Property="OPO" Title="O P O">
+                  <EditTemplate Context="fabricantes">
+                      <RadzenCheckBox @bind-Value="@fabricantes.OPO" Name="OPO" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Fabricantes" Property="ORDEN" Title="O R D E N">
+                  <EditTemplate Context="fabricantes">
+                      <RadzenNumeric style="display: block; width: 100%" @bind-Value="@fabricantes.ORDEN" Name="ORDEN" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Fabricantes" Filterable="false" Sortable="false" Width="156px" TextAlign="TextAlign.Center">
+                    <EditTemplate Context="fabricantes">
+                        <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => SaveButtonClick(args, fabricantes)) @onclick:stopPropagation="true" />
+                        <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            Click=@(args => CancelButtonClick(args, fabricantes)) @onclick:stopPropagation="true" />
+                    </EditTemplate>
+                    <Template Context="fabricantes">
+
+                        <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => EditButtonClick(args, fabricantes)) @onclick:stopPropagation="true" />
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, fabricantes)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

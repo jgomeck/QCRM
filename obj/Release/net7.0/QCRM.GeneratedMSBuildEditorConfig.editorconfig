@@ -1,0 +1,321 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QCRM
+build_property.RootNamespace = QCRM
+build_property.ProjectDir = C:\Users\johng\Documents\ASPNET\RADZEN\QCRM\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\johng\Documents\ASPNET\RADZEN\QCRM
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Actividades.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0aXZpZGFkZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddActividades.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQWN0aXZpZGFkZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddApplicationRole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQXBwbGljYXRpb25Sb2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddApplicationUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQXBwbGljYXRpb25Vc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddContactos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQ29udGFjdG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddCuentas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQ3VlbnRhcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddDocumentos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRG9jdW1lbnRvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddEjecutivos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRWplY3V0aXZvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddEjecutivoscta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRWplY3V0aXZvc2N0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddFacturas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRmFjdHVyYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddGrupos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkR3J1cG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddNotascta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkTm90YXNjdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddOportunidades.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkT3BvcnR1bmlkYWRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddProductosinst.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJvZHVjdG9zaW5zdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/AddProyectos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJveWVjdG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/ApplicationRoles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbGljYXRpb25Sb2xlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/ApplicationUsers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbGljYXRpb25Vc2Vycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Cambio.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FtYmlvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Ciudades.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Contactos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Ctalog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3RhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Cuentas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VlbnRhcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/CuentaS5.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VlbnRhUzUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Cuotas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VvdGFzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Documentos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdW1lbnRvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditActividades.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFjdGl2aWRhZGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditApplicationUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFwcGxpY2F0aW9uVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditContactos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdENvbnRhY3Rvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditCuentas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEN1ZW50YXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditDocumentos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdERvY3VtZW50b3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditEjecutivos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEVqZWN1dGl2b3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditEjecutivoscta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEVqZWN1dGl2b3NjdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditFacturas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEZhY3R1cmFzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditGrupos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEdydXBvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditNotascta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdE5vdGFzY3RhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditOportunidades.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdE9wb3J0dW5pZGFkZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditProductosinst.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFByb2R1Y3Rvc2luc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/EditProyectos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFByb3llY3Rvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Ejecutivos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWplY3V0aXZvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Ejecutivoscta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWplY3V0aXZvc2N0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Estados.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0YWRvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Etapas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXRhcGFzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Fabricantes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFicmljYW50ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Facturas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Facturasl.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyYXNsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Grupos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3J1cG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Industrias.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kdXN0cmlhcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Notascta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90YXNjdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Notiflog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWZsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Opolog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BvbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Oportunidades.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BvcnR1bmlkYWRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/OportunidadeS5.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BvcnR1bmlkYWRlUzUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Presupuestos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc3VwdWVzdG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Productosinst.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdG9zaW5zdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Proyectos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJveWVjdG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/ProyectoS5.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJveWVjdG9TNS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/ResetPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXRQYXNzd29yZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Status.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Tiposact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlwb3NhY3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Tiposdoc.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlwb3Nkb2MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Tiposerv.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlwb3NlcnYucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Tiposproy.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlwb3Nwcm95LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Unauthorized.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVW5hdXRob3JpemVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Usuarios.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Usulog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1bG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/Verticales.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVydGljYWxlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/johng/Documents/ASPNET/RADZEN/QCRM/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

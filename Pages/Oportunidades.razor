@@ -1,0 +1,116 @@
+@page "/oportunidades"
+@attribute [Authorize]
+
+<PageTitle>Oportunidades</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Oportunidades" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenTextBox Placeholder="Search ..." style="display: block; width: 100%" @oninput="@Search" />
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@oportunidades" TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" RowDoubleClick="@EditRow">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="ID_OPORTUNIDAD" Title="I D O P O R T U N I D A D" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="CODE" Title="C O D E" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Cuentas.NOMBRE" Title="Cuentas">
+                                                                                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="NOMBRE" Title="N O M B R E">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="MONEDA" Title="MON" Width="50px">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="MONTOUSD" Title="M O N T O U S D">
+                                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="TC" Title="TC" Width="50px">
+                                                                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="MONTOMN" Title="M O N T O M N">
+                                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="SOFTWARE" Title="S O F T W A R E" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="CIERRE" Title="CIERRE" Width="100px">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="SOURCE" Title="S O U R C E" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="DESCRIPCION" Title="D E S C R I P C I O N" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="LINEA" Title="L I N E A" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="PROBABILIDAD" Title="PROB" Width="50px">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="COMPETENCIA" Title="C O M P E T E N C I A" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="REGISTRO" Title="R E G I S T R O" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="QUARTER" Title="Q U A R T E R" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="NOTAS" Title="N O T A S" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="CERRADA" Title="C E R R A D A" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="USUARIOCIERRE" Title="U S U A R I O C I E R R E" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="FECHACERRADA" Title="F E C H A C E R R A D A" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="PROYECTO" Title="P R O Y E C T O" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="DATEADDED" Title="D A T E A D D E D" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="LASTUPDATED" Title="L A S T U P D A T E D" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="LASTUSER" Title="L A S T U S E R" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="OLDID" Title="O L D I D" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="LASTID" Title="L A S T I D" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Contactos.CODE" Title="Contactos" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Contactos1.CODE" Title="Contactos1" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Status.FORECAST" Title="Status">
+                                                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Etapas.ETAPA" Title="Etapas" >
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Contactos2.CODE" Title="Contactos2" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Fabricantes.FABRICANTE" Title="FAB" Width="80px">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Ejecutivos.CODE" Title="Ejecutivos" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Productosinst.AREA" Title="Productosinst" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Contactos3.CODE" Title="Contactos3" Visible="false">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Tiposerv.TIPO" Title="Tiposerv">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Property="Usuarios.USUARIO" Title="Usuarios">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Oportunidades" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                    <Template Context="oportunidades">
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, oportunidades)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>

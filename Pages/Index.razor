@@ -1,0 +1,46 @@
+@page "/"
+
+@attribute [Authorize]
+<PageTitle>Inicio</PageTitle>
+<RadzenRow Gap="5" RowGap="5">
+    <RadzenColumn Size="12">
+        <RadzenText Text="Bienvenido a Quanam" TextStyle="Radzen.Blazor.TextStyle.DisplayH3" TagName="Radzen.Blazor.TagName.Auto" Style="margin-bottom: 0px"></RadzenText>
+        <RadzenText Text="Los acompañamos por el mejor camino" TextStyle="Radzen.Blazor.TextStyle.H4" TagName="Radzen.Blazor.TagName.H2" class="mt-5" Style="font-size: 30px; margin-top: 20px; margin-bottom: 0px"></RadzenText>
+        <BR>
+        <RadzenText Text="<<< DASHBOARD EN CONSTRUCCION >>>" TextStyle="Radzen.Blazor.TextStyle.Body1" TagName="Radzen.Blazor.TagName.Auto" class="mt-4" Style="font-size: 20px; line-height: 24px; font-weight: bolder"></RadzenText>
+<RadzenText Text="Si desea consultar información corporativa por favor visite los siguientes links:" TextStyle="Radzen.Blazor.TextStyle.Body1" TagName="Radzen.Blazor.TagName.Auto" class="mt-4" Style="font-size: 20px; line-height: 24px"></RadzenText>
+<br>
+<RadzenLink Icon="home" Text="quanam.com" Style="width: 682px; height: 23px; font-size: 20px; color: #FF4A4A; margin: 200px; position: static; display: inline; vertical-align: baseline" Path="https://quanam.com/" Target="https://quanam.com/"></RadzenLink> 
+<br>
+<RadzenLink Icon="home" Text="linkedin.com/company/quanam" Style="width: 682px; height: 23px; font-size: 20px; color: #FF4A4A; margin: 200px" Path="https://www.linkedin.com/company/quanam/" Target="https://www.linkedin.com/company/quanam/"></RadzenLink>
+<br>
+<RadzenLink Icon="home"Text="https://www.linkedin.com/in/quanam-méxico-2857a9233/" Style="width: 403px; height: 23px; font-size: 20px; color: #FF4A4A; margin: 200px" Path="https://www.linkedin.com/in/quanam-méxico-2857a9233/" Target="_blank"></RadzenLink>
+<br>
+<br>
+<br>
+<br>
+<RadzenText Text="Desarrollado con tecnología Radzen" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" Style="font-size: 18px; color: #072340" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
+        <RadzenCard Style="margin-top: 0px; padding: 20px 40px 40px; height: 167px">
+            <RadzenRow>
+                <RadzenColumn Size="12" SizeMD="4">
+                     
+                    <RadzenIcon Icon="smart_button" Style="margin-top: 0px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color)"></RadzenIcon>
+                    <RadzenText Text="Learn the Fundamentals" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
+                    <RadzenLink Text="Docs" Path="https://www.radzen.com/blazor-studio/documentation/" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
+                    <RadzenLink Text="Videos" Path="https://youtube.com/playlist?list=PLQyJPeb3xHcBij_RbHD__2TOo8Jv5HQVc" Icon="east" Target="_blank" Style="display: block; font-size: 18px"></RadzenLink>
+                </RadzenColumn>
+                <RadzenColumn Size="12" SizeMD="4">
+                    <RadzenIcon Icon="code" Style="margin-top: 0px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color)"></RadzenIcon>
+                    <RadzenText Text="Blazor Components" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
+                    <RadzenLink Text="Demos" Path="https://blazor.radzen.com" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
+                </RadzenColumn>
+                <RadzenColumn Size="12" SizeMD="4">
+                    <RadzenIcon Icon="people_outline" Style="margin-top: 0px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color)"></RadzenIcon>
+                    <RadzenText Text="Community" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
+                    <RadzenLink Text="Blazor Studio Forums" Path="https://forum.radzen.com/c/radzen-blazor-studio/12" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
+                </RadzenColumn>
+            </RadzenRow>
+        </RadzenCard>
+    </RadzenColumn>
+</RadzenRow>
+

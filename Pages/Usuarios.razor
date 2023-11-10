@@ -1,0 +1,165 @@
+@page "/usuarios"
+@attribute [Authorize(Roles="Administrador")]
+
+
+
+<PageTitle>Usuarios</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center">
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenText Text="Usuarios" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        </RadzenColumn>
+        <RadzenColumn Size="12" SizeMD="6">
+            <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+                <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                    <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                    <RadzenSplitButtonItem Text="CSV" Value="csv" />
+                </RadzenSplitButton>
+                <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+            </RadzenStack>
+        </RadzenColumn>
+    </RadzenRow>
+    <RadzenRow>
+      <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@usuarios" RowUpdate="@GridRowUpdate" RowCreate="@GridRowCreate" TItem="QCRM.Models.DB_157005_crm7des.Usuarios">
+            <Columns>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="USUARIO" Title="U S U A R I O">
+                  <EditTemplate Context="usuarios">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@usuarios.USUARIO" Name="USUARIO" />
+                      <RadzenRequiredValidator Component="USUARIO" Text="USUARIO is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="NOMBRE" Title="N O M B R E">
+                  <EditTemplate Context="usuarios">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@usuarios.NOMBRE" Name="NOMBRE" />
+                      <RadzenRequiredValidator Component="NOMBRE" Text="NOMBRE is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="MOSTRAR" Title="M O S T R A R">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.MOSTRAR" Name="MOSTRAR" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="REPORTA" Title="R E P O R T A">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.REPORTA" Name="REPORTA" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="FOTO" Title="F O T O">
+                  <EditTemplate Context="usuarios">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@usuarios.FOTO" Name="FOTO" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="PASSWORD" Title="P A S S W O R D">
+                  <EditTemplate Context="usuarios">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@usuarios.PASSWORD" Name="PASSWORD" />
+                      <RadzenRequiredValidator Component="PASSWORD" Text="PASSWORD is required" style="position: absolute;" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="ACTIVO" Title="A C T I V O">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.ACTIVO" Name="ACTIVO" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="PFULLDATOS" Title="P F U L L D A T O S">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.PFULLDATOS" Name="PFULLDATOS" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="PMANTENIMIENTO" Title="P M A N T E N I M I E N T O">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.PMANTENIMIENTO" Name="PMANTENIMIENTO" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="PCIERREOPO" Title="P C I E R R E O P O">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.PCIERREOPO" Name="PCIERREOPO" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="PUSUARIOS" Title="P U S U A R I O S">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.PUSUARIOS" Name="PUSUARIOS" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="PCUOTAS" Title="P C U O T A S">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.PCUOTAS" Name="PCUOTAS" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="TIENECUENTAS" Title="T I E N E C U E N T A S">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.TIENECUENTAS" Name="TIENECUENTAS" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="PLOG" Title="P L O G">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.PLOG" Name="PLOG" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="PFACT" Title="P F A C T">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.PFACT" Name="PFACT" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="EMAIL" Title="E M A I L">
+                  <EditTemplate Context="usuarios">
+                      <RadzenTextBox style="display: block; width: 100%" @bind-Value="@usuarios.EMAIL" Name="EMAIL" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="NOTIFTO" Title="N O T I F T O">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.NOTIFTO" Name="NOTIFTO" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="NOTIFCC" Title="N O T I F C C">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.NOTIFCC" Name="NOTIFCC" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="NOTIFBCC" Title="N O T I F B C C">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.NOTIFBCC" Name="NOTIFBCC" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="NOTIFTO1" Title="N O T I F T O1">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.NOTIFTO1" Name="NOTIFTO1" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="NOTIFCC1" Title="N O T I F C C1">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.NOTIFCC1" Name="NOTIFCC1" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Property="NOTIFBCC1" Title="N O T I F B C C1">
+                  <EditTemplate Context="usuarios">
+                      <RadzenCheckBox @bind-Value="@usuarios.NOTIFBCC1" Name="NOTIFBCC1" />
+                  </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Usuarios" Filterable="false" Sortable="false" Width="156px" TextAlign="TextAlign.Center">
+                    <EditTemplate Context="usuarios">
+                        <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => SaveButtonClick(args, usuarios)) @onclick:stopPropagation="true" />
+                        <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            Click=@(args => CancelButtonClick(args, usuarios)) @onclick:stopPropagation="true" />
+                    </EditTemplate>
+                    <Template Context="usuarios">
+
+                        <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium"
+                            style="margin-top: 0.25rem; margin-right: 0.25rem; margin-bottom: 0.25rem"
+                            Click=@(args => EditButtonClick(args, usuarios)) @onclick:stopPropagation="true" />
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, usuarios)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+
+        </RadzenDataGrid>
+
+    </RadzenColumn>
+  </RadzenRow>
+</RadzenStack>
