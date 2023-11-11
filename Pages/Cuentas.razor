@@ -22,7 +22,7 @@
     
      <RadzenRow>
       <RadzenColumn SizeMD=12>
-        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="Radzen.FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true"
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="Radzen.FilterMode.Simple" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true"
             Data="@cuentas" TItem="QCRM.Models.DB_157005_crm7des.Cuentas" RowDoubleClick="@EditRow" PageSize="15" PagerPosition="Radzen.PagerPosition.Top" 
             PagerAlwaysVisible="false" PagerDensity="Density.Compact" PageNumbersCount="0" AllowColumnResize="true" AllowColumnReorder="true" AllowColumnPicking="false"
             AllowAlternatingRows="true" AllowGrouping="false" AllowMultiColumnSorting="false" Density="Radzen.Density.Compact" PagerHorizontalAlign="Radzen.HorizontalAlign.Right" 
@@ -47,19 +47,36 @@
                 </RadzenDataGridColumn>
                 <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="DESCRIPCION" Title="D E S C R I P C I O N" Visible="false">
                 </RadzenDataGridColumn>
-                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="Usuarios.USUARIO" Title="EJ" Width="50px"          
-                    >
-
-
-
-
-                </RadzenDataGridColumn>
-                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="Estados.ESTADO" Title="Estado" Width="80px">
-                                                                </RadzenDataGridColumn>
-                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="Industrias.INDUSTRIA" Title="Industria" Width="80px">
-                                                </RadzenDataGridColumn>
-                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="Ciudades.CIUDAD" Title="Ciudad" Width="80px">
-                                                </RadzenDataGridColumn>
+        
+                    <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Title="EJ" Width="50px" Property="Usuarios.USUARIO" 
+                                          FilterValue="@selectedEJ" FilterOperator="FilterOperator.Contains" >
+                        <FilterTemplate>
+                            <RadzenDropDown @bind-Value=@selectedEJ Style="width:100%;"
+                                            Change=@OnSelectedEJChange Data="@(distinctEJ)" AllowClear="true"  />
+                        </FilterTemplate>
+                    </RadzenDataGridColumn>
+                    <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Title="Estado" Width="80px" Property="Estados.ESTADO" 
+                                          FilterValue="@selectedEstados" FilterOperator="FilterOperator.Contains">
+                        <FilterTemplate>
+                            <RadzenDropDown @bind-Value=@selectedEstados Style="width:100%;"
+                                            Change=@OnSelectedEstadosChange Data="@(distinctEstados)" AllowClear="true" />
+                        </FilterTemplate>
+                    </RadzenDataGridColumn>
+          
+                    <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Title="Industria" Width="80px" Property="Industrias.INDUSTRIA" Type="typeof(IEnumerable<string>)"
+                                          FilterValue="@selectedIndustria" FilterOperator="FilterOperator.Contains" LogicalFilterOperator="LogicalFilterOperator.Or">
+                        <FilterTemplate>
+                            <RadzenDropDown @bind-Value=@selectedIndustria Style="width:100%;"
+                                            Change=@OnSelectedIndustriaChange Data="@(distinctIndustria)" AllowClear="true" Multiple="true" />
+                        </FilterTemplate>
+                    </RadzenDataGridColumn>
+                    <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Title="Ciudad" Width="80px" Property="Ciudades.CIUDAD" Type="typeof(IEnumerable<string>)"
+                                          FilterValue="@selectedCiudad" FilterOperator="FilterOperator.Contains" LogicalFilterOperator="LogicalFilterOperator.Or">
+                        <FilterTemplate>
+                            <RadzenDropDown @bind-Value=@selectedCiudad Style="width:100%;"
+                                            Change=@OnSelectedCiudadChange Data="@(distinctCiudad)" AllowClear="true" Multiple="true" />
+                        </FilterTemplate>
+                    </RadzenDataGridColumn>
                 <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="VENTAS" Title="VTAS" Width="80px">
                 </RadzenDataGridColumn>
                 <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="EMPLEADOS" Title="EMPLEADOS" Width="80px">
@@ -92,8 +109,14 @@
                 </RadzenDataGridColumn>
                 <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="USERADDED" Title="U S E R A D D E D" Visible="false">
                 </RadzenDataGridColumn>
-                <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="Grupos.GRUPO" Title="Grupo" Width="80px">
-                                </RadzenDataGridColumn>
+                
+                    <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Title="Grupo" Width="80px" Property="Grupos.GRUPO" Type="typeof(IEnumerable<string>)"
+                                          FilterValue="@selectedGrupo" FilterOperator="FilterOperator.Contains" LogicalFilterOperator="LogicalFilterOperator.Or">
+                        <FilterTemplate>
+                            <RadzenDropDown @bind-Value=@selectedGrupo Style="width:100%;"
+                                            Change=@OnSelectedGrupoChange Data="@(distinctGrupo)" AllowClear="true" Multiple="true" />
+                        </FilterTemplate>
+                    </RadzenDataGridColumn>
                 <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="LASTUPDATED" Title="ACTUALIZADO" Width="100px">
                 </RadzenDataGridColumn>
                 <RadzenDataGridColumn TItem="QCRM.Models.DB_157005_crm7des.Cuentas" Property="LASTUSER" Title="user" Width="50px">

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Radzen;
 using Radzen.Blazor;
+using QCRM.Models.DB_157005_crm7des;
 
 namespace QCRM.Pages
 {
@@ -38,6 +39,16 @@ namespace QCRM.Pages
         protected RadzenDataGrid<QCRM.Models.DB_157005_crm7des.Cuentas> grid0;
 
         protected string search = "";
+        List<string> distinctEstados = new List<string>();
+        List<string> distinctEJ = new List<string>();
+        List<string> distinctCiudad = new List<string>();
+        List<string> distinctIndustria = new List<string>();
+        List<string> distinctGrupo = new List<string>();
+        IEnumerable<string> selectedGrupo;
+        IEnumerable<string> selectedCiudad;
+        IEnumerable<string> selectedIndustria;
+        protected string selectedEJ =null;
+        protected string selectedEstados = null;
 
         [Inject]
         protected SecurityService Security { get; set; }
@@ -51,16 +62,23 @@ namespace QCRM.Pages
             cuentas = await DB_157005_crm7desService.GetCuentas(new Query { Filter = $@"i => i.CODE.Contains(@0) || i.NOMBRE.Contains(@0) || i.GRUPO.Contains(@0) || i.INDUSTRIA.Contains(@0) || i.ESTADO.Contains(@0) || i.USUARIO.Contains(@0) || i.CIUDAD.Contains(@0) || i.LASTUSER.Contains(@0)", FilterParameters = new object[] { search }, Expand = "Ciudades,Estados,Grupos,Industrias,Usuarios" });
         }
 
-// agregar para el dropdown de usuarios
-//        protected IEnumerable<QCRM.Models.DB_157005_crm7des.Usuarios> usuariosForUSUARIO;
-
+        // agregar para el dropdown de usuarios
+        //        protected IEnumerable<QCRM.Models.DB_157005_crm7des.Usuarios> usuariosForUSUARIO;
+  
         protected override async Task OnInitializedAsync()
         {
-            cuentas = await DB_157005_crm7desService.GetCuentas(new Query { Filter = $@"i => i.CODE.Contains(@0) || i.NOMBRE.Contains(@0) || i.RAZONSOCIAL.Contains(@0) || i.GRUPO.Contains(@0) || i.DIRECCION.Contains(@0) || i.TELEFONO.Contains(@0) || i.DESCRIPCION.Contains(@0) || i.INDUSTRIA.Contains(@0) || i.COMPETIDORES.Contains(@0) || i.WEBSITE.Contains(@0) || i.ESTADO.Contains(@0) || i.USUARIO.Contains(@0) || i.CIUDAD.Contains(@0) || i.WHY.Contains(@0) || i.WHYNOW.Contains(@0) || i.WHYQ.Contains(@0) || i.LOGO.Contains(@0) || i.USERADDED.Contains(@0) || i.LASTUSER.Contains(@0)", FilterParameters = new object[] { search }, Expand = "Ciudades,Estados,Grupos,Industrias,Usuarios" });
-            
-            // agregar para el dropdown de usuarios            
-         //   usuariosForUSUARIO = await DB_157005_crm7desService.GetUsuarios();
+            cuentas = await DB_157005_crm7desService.GetCuentas(new Query
+            {
+                Filter = $@"i => i.CODE.Contains(@0) || i.NOMBRE.Contains(@0) || i.RAZONSOCIAL.Contains(@0) || i.GRUPO.Contains(@0) || i.DIRECCION.Contains(@0) || i.TELEFONO.Contains(@0) || i.DESCRIPCION.Contains(@0) || i.INDUSTRIA.Contains(@0) || i.COMPETIDORES.Contains(@0) || i.WEBSITE.Contains(@0) || i.ESTADO.Contains(@0) || i.USUARIO.Contains(@0) || i.CIUDAD.Contains(@0) || i.WHY.Contains(@0) || i.WHYNOW.Contains(@0) || i.WHYQ.Contains(@0) || i.LOGO.Contains(@0) || i.USERADDED.Contains(@0) || i.LASTUSER.Contains(@0)",
+                FilterParameters = new object[] { search },
+                Expand = "Ciudades,Estados,Grupos,Industrias,Usuarios"
+            });
 
+            distinctEstados = cuentas.Select(x => x.ESTADO).Distinct().ToList();
+            distinctEJ= cuentas.Select(x => x.Usuarios.USUARIO).Distinct().ToList();
+            distinctCiudad = cuentas.Select(x => x.Ciudades.CIUDAD).Distinct().ToList();
+            distinctIndustria = cuentas.Select(x => x.Industrias.INDUSTRIA).Distinct().ToList();
+            distinctGrupo = cuentas.Where(x => x.Grupos != null).Select(x => x.Grupos.GRUPO).Distinct().ToList();
         }
 
         protected async Task AddButtonClick(MouseEventArgs args)
@@ -122,5 +140,43 @@ namespace QCRM.Pages
 }, "Cuentas");
             }
         }
+      
+        void OnSelectedEstadosChange(object value)
+        {
+            if (selectedEstados != null && !selectedEstados.Any())
+            {
+                selectedEstados = null;
+            }
+        }
+        void OnSelectedEJChange(object value)
+        {
+            if (selectedEJ != null && !selectedEJ.Any())
+            {
+                selectedEJ = null;
+            }
+        }
+  
+        void OnSelectedCiudadChange(object value)
+        {
+            if (selectedCiudad != null && !selectedCiudad.Any())
+            {
+                selectedCiudad = null;
+            }
+        }
+        void OnSelectedIndustriaChange(object value)
+        {
+            if (selectedIndustria != null && !selectedIndustria.Any())
+            {
+                selectedIndustria = null;
+            }
+        }
+        void OnSelectedGrupoChange(object value)
+        {
+            if (selectedGrupo != null && !selectedGrupo.Any())
+            {
+                selectedGrupo = null;
+            }
+        }
+
     }
 }

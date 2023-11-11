@@ -15,7 +15,7 @@
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
-          "Radzen.Blazor": "4.20.1"
+          "Radzen.Blazor": "4.20.4"
         },
         "runtime": {
           "QCRM.dll": {}
@@ -542,7 +542,7 @@
           }
         }
       },
-      "Radzen.Blazor/4.20.1": {
+      "Radzen.Blazor/4.20.4": {
         "dependencies": {
           "DartSassBuilder": "1.0.0",
           "Microsoft.AspNetCore.Components": "7.0.0",
@@ -551,8 +551,8 @@
         },
         "runtime": {
           "lib/net7.0/Radzen.Blazor.dll": {
-            "assemblyVersion": "4.20.1.0",
-            "fileVersion": "4.20.1.0"
+            "assemblyVersion": "4.20.4.0",
+            "fileVersion": "4.20.4.0"
           }
         }
       },
@@ -1214,12 +1214,12 @@
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
     },
-    "Radzen.Blazor/4.20.1": {
+    "Radzen.Blazor/4.20.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0OTDo1xsv/fYEJVZA6iR0PJqfgBInqG117FEqWlUzZ3dsLBDWHok6Tc+0xPxHxlsnM3n/I1Urk/ZyQtV3EEDhQ==",
-      "path": "radzen.blazor/4.20.1",
-      "hashPath": "radzen.blazor.4.20.1.nupkg.sha512"
+      "sha512": "sha512-VKyjjCneyi2YPZ+fTvRzpwgF0v7Q3UN/yEvlJNOQQ06TZgo8b/+siKcm5hGJt+z+kmkeoDUeHRcguM2lq/hqNw==",
+      "path": "radzen.blazor/4.20.4",
+      "hashPath": "radzen.blazor.4.20.4.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",
