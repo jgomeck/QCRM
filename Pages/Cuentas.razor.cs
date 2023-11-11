@@ -74,8 +74,9 @@ namespace QCRM.Pages
                 Expand = "Ciudades,Estados,Grupos,Industrias,Usuarios"
             });
 
-            distinctEstados = cuentas.Select(x => x.ESTADO).Distinct().ToList();
-            distinctEJ= cuentas.Select(x => x.Usuarios.USUARIO).Distinct().ToList();
+            var items = cuentas.Select(x => x.Estados).OrderBy(x => x.ORDEN).Distinct().ToList();
+            distinctEstados = items.Select(x => x.ESTADO).Distinct().ToList();
+            distinctEJ = cuentas.Select(x => x.Usuarios.USUARIO).Distinct().ToList();
             distinctCiudad = cuentas.Select(x => x.Ciudades.CIUDAD).Distinct().ToList();
             distinctIndustria = cuentas.Select(x => x.Industrias.INDUSTRIA).Distinct().ToList();
             distinctGrupo = cuentas.Where(x => x.Grupos != null).Select(x => x.Grupos.GRUPO).Distinct().ToList();
